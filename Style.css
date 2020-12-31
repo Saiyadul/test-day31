@@ -1,0 +1,223 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.main-bg-sec{
+    background: #f7f9ff;
+}
+
+/* Header-Style */
+.own-header{
+
+}
+.own-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.own-header span {
+    display: inline-block;
+    background: #6278df;
+    height: 42px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: 1px;
+    font-size: 28px;
+}
+.own-menu .nav-item {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Slider-Section  */
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.slider-caption h4 {
+    margin-bottom: 34px;
+}
+.slider-caption h2 {
+    margin-bottom: 55px;
+    font-size: 45px;
+}
+.slider-caption .btn {
+    background: #44732a;
+    padding: 7px 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.slider-caption .form-control {
+    padding: 17px 20px;
+}
+
+/* Number-Counter */
+.number-item .h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+.number-item .text-muted {
+    color: #6c757d !important;
+    font-size: 22px;
+}
+/* About Section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead {
+    font-size: 23px;
+    line-height: 2.1rem;
+}
+.about-text-left .text {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* Feature text Section */
+.feature-text-up h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+.feature-text-up p {
+    font-size: 25px;
+    margin-top: 33px;
+}
+
+/* Feature Section */
+.feature-item {
+    height: 300px;
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191,0.1);
+}
+.feature-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.feature-text-sec {
+    width: 60%;
+    padding: 25px;
+}
+.feature-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -125px;
+}
+
+/* Pricing Table */
+
+.pricing-text h1{
+    font-size: 58px;
+    font-weight: 400;
+}
+.pricing-text h5 {
+    font-size: 25px;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 62px;
+}
+.pricing-item ul li {
+    margin-top: 34px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    color: #6278df;
+    font-size: 27px;
+    display: inline-block;
+    font-weight: bold;
+    width: 46px;
+}
+
+.pricing-btn{}
+.pricing-btn a {
+    border-color: #fff;
+    border-width: 2px;
+    color: #6278df;
+    padding: 14px 30px;
+    font-size: 20px;
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191,0.3);
+}
+/* Testimonial Section */
+.auther-info {
+    width: 193px;
+    margin: auto;
+}
+.auther-info img {
+    width: 68px;
+    margin-right: 17px;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 4px;
+}
+.testimonial-item span{
+    font-size: 78px;
+    color: #f0f0f0;
+}
+
+/* Team Section */
+.team-item {
+    margin-top: 105px;
+}
+.team-item .card{}
+.team-item .card img {
+    width: 127px;
+    height: auto;
+    margin-top: -64px;
+    margin-left: 16px;
+}
+.btn-team {
+    margin-left: 16px;
+}
+.last-btn{
+    font-size: 22px;
+    padding: 12px 20px;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Contact css */
+.content-form-div .card{
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191,0.1);
+    padding: 50px;
+}
+.btn-outline-primary.btn-primary-lg {
+    border-radius: 5px;
+    padding: 15px 33px;
+}
